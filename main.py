@@ -22,9 +22,9 @@ def create_dataset():
     print(_data)
 
 
-def random_seq(stringLength=15):
+def random_seq():
     letters = string.ascii_lowercase
-    return ''.join(random.choice(letters) for _ in range(stringLength))
+    return ''.join(random.choice(letters) for _ in range(17))
 
 
 if __name__ == '__main__':

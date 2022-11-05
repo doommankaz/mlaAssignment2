@@ -23,8 +23,7 @@ def create_dataset():
 
 
 def random_seq():
-    letters = string.ascii_lowercase
-    return ''.join(random.choice(letters) for _ in range(17))
+    return ''.join(random.choice(string.ascii_lowercase) for _ in range(7))
 
 
 if __name__ == '__main__':
